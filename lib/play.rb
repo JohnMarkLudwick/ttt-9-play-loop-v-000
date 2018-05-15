@@ -39,7 +39,6 @@ end
 def play(board)
   turns = 0
   
-  loop do
     until turns == turns + 1
     turn(board)
     if turns >= 9
