@@ -37,8 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  turns = 8
-  counter = 0
+  turns = 0
+  while turns > 8
   loop do
     counter = counter + 1
     turn(board)
