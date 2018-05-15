@@ -36,8 +36,8 @@ def turn(board)
 end
 
 # Define your play method below
-def play("X", board)
-  board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def play(board)
+  board == []
   turn = 0
   while turn < 9
   puts "turn #{[turn]}"
