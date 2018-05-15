@@ -36,7 +36,7 @@ def turn(board)
 end
 
 # Define your play method below
-def play(board)
+def play(turns, board)
   board = []
   turns = 0
   until turns < 9
