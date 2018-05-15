@@ -40,7 +40,7 @@ def play(board)
   turns = 0
   counter = 9
   loop do
-    counter = counter + 1
+    counter = turns + 1
     turn(board)
     if counter >= turns
       puts "You only get #{turns} turns baby!"
