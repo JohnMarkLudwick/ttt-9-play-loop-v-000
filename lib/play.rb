@@ -39,7 +39,7 @@ end
 def play(board)
   turn = 0
   while turn < 9
-  puts "#{[turn]}"
+  puts "turn #{[turn]}"
   turn += 1
 end
 end
