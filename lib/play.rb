@@ -40,7 +40,7 @@ def play(board)
   board = []
   turns = 0
   until turns < 9
-  puts "Turn #{turns}"
+  puts "Turn #{[turns]}"
   counter += 1
 end
 end
