@@ -48,11 +48,3 @@ def play(board)
   end
 end
 
-#else ask for input again until you get valid input
-#_________________________________________________
-
-board = ["X"," "," "," "," "," "," "," "," "]
-puts "Welcome to Tic Tac Toe!"
-puts display_board(board)
-#turn(board)
-play(board)
