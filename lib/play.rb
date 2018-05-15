@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  board = []
+ loop do
   turns = 0
   until turns < 9
   puts "Turn #{[turns]}"
