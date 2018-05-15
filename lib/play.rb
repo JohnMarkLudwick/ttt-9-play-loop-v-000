@@ -43,6 +43,5 @@ def play(board)
     turn(board)
       puts "You only get #{turns} turns baby!"
       turns += 1
-    end
   end
 end
