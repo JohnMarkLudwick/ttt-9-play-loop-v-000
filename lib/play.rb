@@ -42,7 +42,7 @@ def play(board)
   loop do
     until turns == turns + 1
     turn(board)
-    if turns >= turns
+    if turns >= 9
       puts "You only get #{turns} turns baby!"
     end
   end
