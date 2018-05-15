@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  boad == []
+  board == []
   turns = 0
   while turn < 9
   puts "Turn #{turn}"
